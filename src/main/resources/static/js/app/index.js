@@ -5,6 +5,7 @@ var main = {
             _this.save();
         });
 
+        // btn-update 란 id를 가진 HTML 엘리먼트에 클릭 이벤트가 발생할 때 update 함수를 실행하도록 이벤트를 등록
         $('#btn-update').on('click', function () {
             _this.update();
         });
@@ -43,8 +44,8 @@ var main = {
         var id = $('#id').val();
 
         $.ajax({
-            type: 'PUT',
-            url: '/api/v1/posts/'+id,
+            type: 'PUT', //HTTP 메소드 중 PUT 메소드 사용(PostsApiController 에 있는 API 에 이미 PUTMapping 로 선언했기에 PUT 사용)
+            url: '/api/v1/posts/'+id, //어느 게시글을 수정할지 URL 로 구분하기 위해 id 추가
             dataType: 'json',
             contentType:'application/json; charset=utf-8',
             data: JSON.stringify(data)
