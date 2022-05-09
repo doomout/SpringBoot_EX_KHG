@@ -38,5 +38,6 @@ dependencies {
     compile('org.springframework.session:spring-session-jdbc') // DB 접속을 위한  의존성
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile("org.springframework.security:spring-security-test")
 
 }

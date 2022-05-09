@@ -10,5 +10,6 @@
 8. 구글 로그인 구현 전 미리 구글 인증 ID를 발급 받아야 한다. http://consol.cloud.google.com 에서 받으면 된다.  
 9. 클라이언트 ID와 클라이언트 보안 비밀 번호가 들어가야 하는 부분은 깃허브에서 제외 시켜야 한다.
 10. 세션 유지하는 방법 중 DB를 이용한 세션 유지 방법으로 채택  
-11. 네이버 로그인을 구현하기 전에 https://developers.naver.com/apps/#/register 에서 클라이언트 ID와 PW를 발급 받아야 한다.
+11. 네이버 로그인을 구현하기 전에 https://developers.naver.com/apps/#/register 에서 클라이언트 ID와 PW를 발급 받아야 한다.  
+
 
